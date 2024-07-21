@@ -152,7 +152,7 @@ footer {
 
     .footer__center__banner {
       display: flex;
-      width: 1500px;
+      width: 100%;
       height: 77px;
       padding: 0 20px;
       border-radius: 10px;
