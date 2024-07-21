@@ -263,7 +263,8 @@
 }
 
 .main {
-  .main__interesting__banner {
+  .main__interesting__banner.first-child,
+  .main__interesting__banner.second-child {
     width: 98%;
 
     .main__interesting__banner__left__item {
