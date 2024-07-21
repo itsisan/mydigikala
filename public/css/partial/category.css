@@ -1,0 +1,50 @@
+.main__category__products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 30px auto;
+
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: IranYekan-medium;
+  }
+
+  .main__category__products__wrapper {
+    width: 1170px;
+    height: 350px;
+    direction: rtl;
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px auto 0px auto;
+    cursor: pointer;
+
+    .main__category__products__item {
+      width: 110px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .main__category__products__item__image {
+        width: 100px;
+        height: 100px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      p {
+        line-height: 25px;
+        font-size: 12px;
+        text-align: center;
+        font-family: IranYekan-bold;
+      }
+    }
+  }
+}

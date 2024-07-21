@@ -1,0 +1,88 @@
+/* fonts  */
+@font-face {
+  font-family: IranYekan-regular;
+  src: url(../../Fonts/iranyekanwebregular.e31c09af.woff2);
+}
+
+@font-face {
+  font-family: IranYekan-medium;
+  src: url(../../Fonts/iranyekanwebmedium.2d4f96e5.woff);
+}
+
+@font-face {
+  font-family: IranYekan-bold;
+  src: url(../../Fonts/iranyekanwebbold.cfb6e26c.woff2);
+}
+
+@font-face {
+  font-family: IranYekan-extra-bold;
+  src: url(../../Fonts/iranyekanwebextrabold.9346e9a2.woff);
+}
+
+/* variables */
+:root {
+  --spacing-base: 4px;
+  --main-border-radius: 8px;
+  --text-primary-color: #000;
+  --text-secondary-color: #3f4063;
+  --text-story--color: #24264f;
+  --text-ternary-color: #82868c;
+  --nav-text-color: #63676e;
+  --search-bg-color: #f2f2f2;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #d9304f;
+  --interestings-slider-items-color: #656970;
+}
+
+/* size  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* scroll customization */
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f2f2f2;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #bec1c4;
+}
+
+header::-webkit-scrollbar,
+header::-webkit-scrollbar-thumb {
+  all: unset;
+}
+
+/* swiper styles */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  color: #7a7e85;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e3;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}

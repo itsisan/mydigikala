@@ -1,0 +1,94 @@
+.main__interesting__banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  width: 1340px;
+  height: 110px;
+  margin: 20px auto;
+  background: url(../../SVGs/freshPattern.svg) left center no-repeat, #e8edec;
+  background-size: auto;
+  border-radius: 20px;
+
+  .main__interesting__banner__right {
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      height: auto;
+      width: 110px;
+      color: #fff;
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 100px;
+      font-family: IranYekan-regular;
+      background-color: #029948;
+    }
+  }
+
+  .main__interesting__banner__left {
+    width: 50%;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-between;
+
+    .main__interesting__banner__left__see-all {
+      display: flex;
+      width: 140px;
+      height: 50px;
+      font-size: 12px;
+      color: #029948;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      border-radius: 140px;
+      background-color: #fff;
+      flex-direction: row-reverse;
+      font-family: IranYekan-bold;
+      cursor: pointer;
+
+      img {
+        display: block;
+      }
+    }
+
+    .main__interesting__banner__left__item {
+      width: 80px;
+      height: 70px;
+      display: flex;
+      position: relative;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #fff;
+      cursor: pointer;
+
+      img {
+        width: 50px;
+        height: 50px;
+        display: block;
+      }
+    }
+
+    .main__interesting__banner__left__discount {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 35px;
+      height: 20px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 23px;
+      border-radius: 35px;
+      text-align: center;
+      font-family: IranYekan-regular;
+      background-color: var(--secondary-bg-color) !important;
+    }
+  }
+}
